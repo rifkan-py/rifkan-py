@@ -7,5 +7,5 @@ import sitemap from "@astrojs/sitemap";
 export default defineConfig({
   site: "https://rifkan-py.github.io",
   integrations: [mdx(), sitemap()],
-  base: "my-blog",
+  base: "/my-blog",
 });
